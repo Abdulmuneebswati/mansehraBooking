@@ -1,0 +1,43 @@
+.fp{
+    width: 80%;
+    display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  .fpitem{
+  gap: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  .fpimg{
+     width: 100%;
+  height: 250px;
+  object-fit: cover;
+  }
+  .fpname{
+  color: #333;
+  font-weight: bold;
+}
+.fpcity{
+  font-weight: 300;
+}
+
+.fpprice{
+  font-weight: 500;
+}
+.fprating{
+    .fpbtn{
+background-color: #660066;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+    }
+     .fpspan{
+          font-size: 14px;
+    }
+}
+  }
+}
+

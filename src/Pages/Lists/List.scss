@@ -1,0 +1,90 @@
+.list{
+    .listContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .listWrapper{
+            width: 80%;
+            display: flex;
+            gap: 1rem;
+            .listSearch{
+                flex: 1;
+                background-color: #660066;
+                padding: 10px;
+                border-radius: 10px;
+                position: sticky;
+                top: 10px;
+                height: max-content;
+                .searchButton{
+                    padding: 10px;
+                    background-color: #CC99CC;
+                    color: white;
+                    border:none;
+                    width: 100%;
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+                .lstitle{
+                    margin-bottom: 10px;
+                }
+                .lsitem{
+                    .option{
+                        padding: 10px;
+                        .lsoption{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            font-size: 16px;
+                            .lsoptioninput{
+                                width: 50px;
+                            }
+                            .lsoptiontext{
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    margin-bottom: 10px;
+                    label{
+                        font-size: 18px;
+                    }
+                    input{
+                        height: 30px;
+                        border: none;
+                        outline: none;
+                    }
+                    span{
+                        height: 30px;
+                        padding: 5px;
+                        background-color: white;
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .listResult{
+                flex: 3;
+            }
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .header{
+        display: none;
+    }
+    .listWrapper{
+        flex-direction: column;
+        .listSearch{
+        position:absolute;
+        left: 0;
+        }
+        .listResult{
+            overflow: hidden;
+        }
+    }
+ }

@@ -1,0 +1,93 @@
+.sitem{
+    border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+  .simg{
+    width: 200px;
+  height: 200px;
+  object-fit: cover;
+  }
+  .sidesc{
+    display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+  .sititle {
+  font-size: 20px;
+  color: #0071c2;
+}
+.sidistance {
+  font-size: 14px;
+}
+.sitaxiop {
+  font-size: 14px;
+  background-color: #008009;
+  color: white;
+  width: max-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+.sisubtitle{
+  font-size: 14px;
+  font-weight: bold;
+}
+.sifeatures{
+  font-size: 14px;
+}
+.sicancelop{
+  font-size: 14px;
+  color: #008009;
+  font-weight: bold;
+}
+.sicancelopsubtitle{
+  font-size: 14px;
+  color: #008009;
+}
+}
+.sidetails{
+     flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    .sirating{
+         display: flex;
+  justify-content: space-between;
+        .res{
+            font-weight: 500;
+        }
+        .sires{
+            background-color: #660066;
+ color: white;
+ padding: 5px;
+ font-weight: bold;
+ border: none;
+        }
+    }
+    .sidetailtext{
+        text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+        .siprice{
+              font-size: 24px;
+        }
+        .sitaxop{
+            font-size: 14px;
+  color: gray;
+        }
+        .sicheckbtn{
+             background-color: #660066;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+        }
+    }
+}
+}

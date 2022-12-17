@@ -1,0 +1,25 @@
+.feature{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+    .featureItem{
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        color: white;
+        height: 250px;
+        width: 250px;
+        .ftitle{
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+        .fimg{
+                width: 100%;
+                object-fit: cover;
+            
+        }
+    }
+}

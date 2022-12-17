@@ -1,0 +1,35 @@
+.navbar{
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #660066;
+    width: 100%;
+    .navContainer{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .logo{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .navItems{
+            .navBtn{
+                margin-left: 20px;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+                color: #660066;
+            }
+        }
+    }
+}
+@media screen and (max-width:480px) {
+   .navbar{
+    justify-content: flex-start;
+    padding: 1rem;
+   }
+
+}

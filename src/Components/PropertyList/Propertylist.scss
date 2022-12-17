@@ -1,0 +1,28 @@
+.plist{
+    width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  .plistitem{
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  .pimg{
+    width: 100%;
+  height: 150px;
+  object-fit: cover;
+  }
+  .ptitle{
+    h1{
+        font-size: 18px;
+  color: #444;
+      text-transform: capitalize;
+}
+     p{
+       font-size: 14px;
+  font-weight: 300
+    }
+  }
+  }
+}
